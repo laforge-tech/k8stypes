@@ -1,0 +1,6 @@
+apiVersion: demo.laforge.tech/v1
+kind: Demo
+metadata:
+  name: demo1
+spec:
+  message: "message value1"

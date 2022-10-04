@@ -40,4 +40,3 @@ informer-gen -h scripts/header.go.txt \
     --output-package ${PKG_BASE}/pkg/informers \
     --trim-path-prefix ${PKG_BASE} \
     -o .
-

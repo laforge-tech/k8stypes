@@ -28,7 +28,7 @@ func Demo(name, namespace string) *DemoApplyConfiguration {
 	b.WithName(name)
 	b.WithNamespace(namespace)
 	b.WithKind("Demo")
-	b.WithAPIVersion("demo/v1")
+	b.WithAPIVersion("demo.laforge.tech/v1")
 	return b
 }
 
